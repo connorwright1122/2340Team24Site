@@ -1,11 +1,15 @@
 body {
     margin: 0;
-    padding: 20px;
+    padding: 60px;
     font-family: 'Roboto Mono', monospace;
 }
 
 body nav {
     margin: 0px;
+    border: solid;
+    border-radius: 13px;
+    border-color: tomato;
+    background-color: tomato;
 }
 
 
@@ -27,6 +31,11 @@ section {
     display: flex;
     align-items: center;
     margin: 20px;
+
+    border: solid;
+    border-radius: 13px;
+    border-color: tomato;
+    background-color: #fff;
 
 }
 
@@ -76,4 +85,21 @@ li {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+img {
+    border-width: 1em;
+    border-radius: 10px;
+    border-color: tomato;
+}
+
+#team-presentation, #game-description, #game-design-patterns, #video-demonstration {
+    border: solid 20px;
+    border-radius: 13px;
+    border-color: tomato;
+    margin-top: 10px;
+}
+
+#team-presentation, #video-demonstration {
+    background-color: tomato;
 }
