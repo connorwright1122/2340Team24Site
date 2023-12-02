@@ -103,3 +103,9 @@ img {
 #team-presentation, #video-demonstration {
     background-color: tomato;
 }
+
+.centered {
+    display: flex;
+    justify-content: center;
+ 
+}
